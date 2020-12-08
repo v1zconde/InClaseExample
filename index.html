@@ -1,26 +1,44 @@
-<html>
+<!DOCTYPE html>
+<html lang="en-us">
+
 <head>
-  <title>Bio</title>
+  <meta charset="UTF-8">
+  <title>CSS Stylesheets with Relative Paths</title>
+  <link rel="stylesheet" type="text/css" href="./style.css">
 </head>
 
 <body>
-    <h2>Student Bio</h2>
-    <h4>Rafael Vasquez</h4>
-    <img src="scuba.png" alt="Selfie" width="200px"; height="200px">
+  <header>
+    <h1>Student Bio</h1>
+  </header>
 
-  <p>My name is Rafael Vasquez and I am a BEng. Compuing and System Engineering, i have an MBA and Master in Marketing. 
-    I studied the MBA in Buenos Aires, Argentina and the Master in Marketing in Barcelona, Spain. I love outdoors, snowboarding, hiking and scuba diving are my passions.
-    I moved to USA 5 years ago, lived first in New York, then moved to Orlando, Fl 4 years ago. Cant complain about the weather, but I miss the mountains.<a href="https://www.instagram.com/iamrafa3/">Find more..</a></p>
-    
+  <div class="container">
+  
+    <section id="main-bio">
+      
+      <h2>Rafael Vasquez</h2>  
 
-    <footer>
-        <h1>Contact Info</h1>
-        <h3>
-        <b><p>Email <a href="mailto:rvasquez1@gmail.com">hege@example.com</a></p></b>
-        <b><p>Github <a href="https://github.com/v1zconde?tab=repositories">V1zconde</a></p></b>
-        <b><p>Portfolio <a href="xxxxxxx">Coming Soon</a></p></b>
-        </h3>
-      </footer>
+        <img id="bio-image" src="scuba.png" alt="Scubadiving Picture"> 
+        
+        <p>My name is Rafael Vasquez and I am a BEng. Compuing and System Engineering, i have an MBA and Master in
+          Marketing.
+          I studied the MBA in Buenos Aires, Argentina and the Master in Marketing in Barcelona, Spain. I love outdoors,
+          snowboarding, hiking and scuba diving are my passions.
+          I moved to USA 5 years ago, lived first in New York, then moved to Orlando, Fl 4 years ago. Cant complain about
+          the weather, but I miss the mountains. <a href="https://www.instagram.com/iamrafa3/">More Info.</a> </p>
+    </section>
+
+    <section id="contact-info">
+      <h2>Contact Info</h2>
+      <ul>
+        <li><strong>Email:</strong> <a href="rvasquez1@gmail.com">rvasquez1@gmail.com</a></li>
+        <li><strong>Github:</strong> <a href="v1zconde">V1zconde</a></li>
+        <li><strong>Portfolio:</strong> <a href="#">coming soon</a></li>
+      </ul>
+    </section>
+</table>
+  </div>
+
 </body>
 
 </html>
